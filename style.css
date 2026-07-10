@@ -1,3 +1,29 @@
-h1{
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
 }
+/* Navbar Section start */
+.Nav_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px 0 100px;
+}
+.Nav_section .manu_bar li{
+    list-style: none;
+    
+}
+.Nav_section .manu_bar li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgb(98, 97, 97);
+    font-weight: bold;
+}
+.Nav_section .register_btn a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+/* End */

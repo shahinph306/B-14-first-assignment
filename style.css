@@ -48,4 +48,152 @@ body{
 
 /* End */
 
+/* Banner (Hero)Section  start */
+.hero_section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url(./images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 
+}
+
+.section_top_part h1 {
+    font-size: 90px;
+    margin-bottom: 100px;
+}
+
+.section_top_part {
+    font-size: 25px;
+    margin-bottom: 155px;
+}
+
+.hero_section .register_btn a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 20px 45px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.hero_section .register_btn a:hover {
+    color: red;
+}
+
+/* end */
+
+/* Meet the Speakers Section start */
+.speaker_section {
+    margin-top: 50px;
+}
+
+.speaker_section h1 {
+    text-align: center;
+    font-size: 70px
+}
+.speakers_profile{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.speaker_section .box {
+    border: 1px solid rgb(229, 228, 228);
+    border-radius: 20px;
+    height: 420px;
+    width: max-content;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.speaker_section .box img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: auto;
+    width: 500px;
+    
+}
+
+.speakers_profile .details {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.speaker_section .box p{
+    color: blue;
+}
+/* End */
+
+/* Secure Your Spot (Pricing) Section start */
+.pricing_section{
+    font-size: 20px;
+    margin-top: 70px;
+}
+.card_box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.secure_spot{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card{
+    background-color: rgb(244, 244, 247);
+    border: 1px solid yellow;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    padding-left: 5px;
+    color: rgb(85, 83, 83);
+    margin: 15px 20px 0
+}
+.card .list_data{
+    padding: 30px;
+    font-size: 17px;
+}
+.pro{
+    background-color: rgb(243, 147, 147);
+}
+.top_section{
+    padding: 30px 15px 20px;
+}
+.list_data{
+    border-top: 1px solid;
+    padding-top: 5px;
+}
+.price_btn_1{
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+.price_btn_1 a{
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.price_btn_2{ 
+    background-color: blue;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+}
+.price_btn_2 a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}

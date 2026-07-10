@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
 
 /* Navbar Section start */
 .Nav_section {
@@ -22,7 +26,8 @@
     color: rgb(98, 97, 97);
     font-weight: bold;
 }
-.Nav_section .manu_bar li a:hover{
+
+.Nav_section .manu_bar li a:hover {
     background-color: blue;
     color: white;
     padding: 10px 25px;
@@ -36,41 +41,11 @@
     padding: 10px 25px;
     border-radius: 10px;
 }
-.Nav_section .register_btn a:hover{
+
+.Nav_section .register_btn a:hover {
     color: red;
 }
 
 /* End */
 
-.hero_section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url(./images/banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
 
-}
-.section_top_part h1{
-    font-size: 90px;
-    margin-bottom: 100px;
-}
-.section_top_part{
-    font-size: 25px;
-    margin-bottom: 155px;
-}
-.hero_section .register_btn a{
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    padding: 20px 45px;
-    border-radius: 10px;
-    font-size: 25px;
-}
-.hero_section .register_btn a:hover{
-    color: red;
-}

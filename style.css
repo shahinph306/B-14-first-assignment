@@ -221,38 +221,44 @@ body {
     padding: 5px;
     border: 1px solid blue;
 }
+
 .price_btn_3 a {
     text-decoration: none;
     color: rgb(8, 8, 8);
     display: flex;
     justify-content: center;
 }
+
 /* End */
 
 /* Relevant section with AI */
-.section_with_AI{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-        url(./images/devconf-us-social.svg);;
+.section_with_AI {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url(./images/devconf-us-social.svg);
     height: auto;
     background-position: center;
     background-size: cover;
     color: white;
     margin-top: 40px;
 }
-.section_title{
+
+.section_title {
     text-align: center;
     padding-top: 40px;
 }
-.section_title h4{
+
+.section_title h4 {
     padding-top: 10px;
 }
-.bonus_area{
+
+.bonus_area {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
-    
+
 }
-.bonus_area .box{
+
+.bonus_area .box {
     border: 1px solid rgb(236, 219, 186);
     margin: 0 auto;
     height: 300px;
@@ -260,53 +266,86 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-     text-align: center;
+    text-align: center;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 20px;
-    color: gold;
-    background-color: rgb(64, 66, 66);
+    color: white;
+
 }
-.Image img{
+
+.bonus_area .box1{
+    background: linear-gradient(rgba(190, 46, 46, 0.5), rgba(75, 62, 62, 0.3)),
+        url(./images/ai\ tools.jfif);
+    background-size: contain;
+}
+.bonus_area .box2{
+    background: linear-gradient(rgba(190, 46, 46, 0.5), rgba(75, 62, 62, 0.3)),
+        url(./images/live\ demo.jfif);
+    background-size: contain;
+}
+.bonus_area .box3{
+    background: linear-gradient(rgba(190, 46, 46, 0.5), rgba(75, 62, 62, 0.3)),
+        url(./images/workshop.jfif);
+    background-size: contain;
+}
+.bonus_area .box4{
+    background: linear-gradient(rgba(190, 46, 46, 0.5), rgba(75, 62, 62, 0.3)),
+        url(./images/developer.jfif);
+    background-size: contain;
+}
+
+
+.Image {
     border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
 }
 
 /* End */
 /* Footer Section start  */
-.footer_section{
+.footer_section {
     background-color: rgb(173, 198, 231);
     margin-top: 40px;
 }
-.logo_social_media{
+
+.logo_social_media {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
 }
-.logo_social_media .logo img{
+
+.logo_social_media .logo img {
     height: 70px;
     width: 100px;
     margin-left: 40px;
     padding: 10px;
     cursor: pointer;
 }
-.social_media{
+
+.social_media {
     margin-right: 100px;
 
 }
-.logo_social_media .social_media img{
+
+.logo_social_media .social_media img {
     height: 30px;
     width: 30px;
     padding: 10px;
     cursor: pointer;
 }
-.logo_social_media .social_media img:hover{
+
+.logo_social_media .social_media img:hover {
     height: 35px;
     width: 35px;
     background-color: white;
     border-radius: 30px;
 }
-.copyright_message{
+
+.copyright_message {
     margin: 0 auto;
     margin-top: 0px;
     text-align: center;
@@ -314,4 +353,5 @@ body {
     padding: 10px;
     color: blue;
 }
+
 /* End */

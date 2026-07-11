@@ -1,0 +1,2 @@
+AI Prompt:
+Create a responsive "AI Playground Experience" section for DevConf 2026 featuring five cards: 12+ AI Tools, 30+ Live Demos, 8 Workshops, 500+ Developers, and Industry Experts. Use a futuristic purple-themed design with glassmorphism cards, AI illustrations, hover animations, glowing effects, and a responsive CSS Grid layout. Include a heading and subtitle encouraging attendees to explore, build, and experiment with cutting-edge AI technologies through hands-on experiences.
